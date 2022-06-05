@@ -1,28 +1,70 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-body {
-  background: rgb(39, 202, 6);
+
+* {
+  margin: 0;
+  padding: 0;
 }
-.card {
+
+body {
+  background: rgb(3, 71, 3);
   text-align: center;
-  padding-top: 100px;
-  font-size: 60px;
-  display: inline-block;
-  margin: auto;
-  height: 300px;
-  width: 200px;
+}
+
+.card {
+  position: center;
+  float: left;
+  margin-left: 800px;
+  margin-top: 110px;
+  width: 250px;
+  height: 400px;
   border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
   border: 1px solid black;
 }
-.top-suit {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 60px;
-  rotate: ;
+
+.card span {
+  text-align: center;
+  font: 100px/220px Georgia, Times New Roman, serif;
 }
-.botton-suit {
+
+.number {
+  font-size: 180px;
+  line-height: 350px;
+  text-align: center;
+  margin-top: 73px;
+  margin-right: 5px;
+}
+
+#icon1 {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 60px;
+  top: 5;
+  left: 5;
+  padding-left: 10px;
+  font-size: 65px;
+}
+
+#icon2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 10px;
+  font-size: 65px;
+  rotate: 180;
+}
+
+.click {
+  padding-top: 900px;
+  padding-right: 45px;
+}
+
+.button {
+  background: lightgray;
+  height: 50px;
+  width: 200px;
+}
+
+.button:hover {
+  background: yellow;
 }
